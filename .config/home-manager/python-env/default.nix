@@ -2,7 +2,7 @@
 
 let
   # Create an optimized Python build using overlay approach (more reliable than overrideAttrs)
-  optimizedPython = pkgs.python311.override {
+  optimizedPython = pkgs.python313.override {
     # Enable optimizations at the interpreter level
     enableOptimizations = true;
     
@@ -13,7 +13,7 @@ let
     enableLTO = true;
     
     # Override the build process more carefully
-    self = pkgs.python311;
+    self = pkgs.python313;
     
     # Custom configure flags that are known to work
     stdenv = pkgs.stdenv.override {

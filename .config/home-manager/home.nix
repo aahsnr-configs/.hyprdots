@@ -30,17 +30,9 @@
 
   # nix-pkgs: yazi texlab tectonic emacs-lsp-booster
   home.packages = with pkgs; [
-    atuin
-    emacs-lsp-booster
-    eza
-    lazygit
     markdownlint-cli
     nix-prefetch-git
     nix-prefetch-github
-    starship
-    tectonic
-    texlab
-    yazi
   ];
 
   imports = [ 

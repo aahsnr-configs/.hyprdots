@@ -1,6 +1,7 @@
 alias fd='fd-find'
 alias find='fd-find'
 alias rmi='sudo rm -rf'
+alias vi='nvim'
 command -v dust >/dev/null 2>&1 && alias du='dust'
 command -v procs >/dev/null 2>&1 && alias ps='procs'
 command -v rg >/dev/null 2>&1 && alias grep='rg'
