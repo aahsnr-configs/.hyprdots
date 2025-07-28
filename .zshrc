@@ -1,8 +1,7 @@
 source $HOME/.config/zsh/export.zsh
 source $HOME/.config/zsh/aliases.zsh
-source $HOME/.cargo/env
 #source $HOME/.config/zsh/atuin.zsh
-#source $HOME/.config/zsh/bat.zsh
+source $HOME/.config/zsh/bat.zsh
 source $HOME/.config/zsh/eza.zsh
 source $HOME/.config/zsh/fzf.zsh
 source $HOME/.config/fzf/fzf.fedora
@@ -330,7 +329,6 @@ autoload -U compaudit compinit
 # ===== Local Configuration =====
 # Source local configuration if it exists
 [[ -f "$HOME/.zshrc.local" ]] && source "$HOME/.zshrc.local"
-eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 #
 # ===== Emacs Integration
 source ~/.zshrc.vterm 2>/dev/null || true
