@@ -335,3 +335,5 @@ source ~/.zshrc.vterm 2>/dev/null || true
 
 # bun completions
 [ -s "/home/ahsan/.bun/_bun" ] && source "/home/ahsan/.bun/_bun"
+
+eval "$(direnv hook zsh)"
