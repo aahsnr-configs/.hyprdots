@@ -53,6 +53,8 @@ if command -v podman >/dev/null 2>&1; then
   alias pdS='podman stop'
 fi
 
+alias gg='lazygit'
+
 #=== Misc ===
 if command -v emacs >/dev/null 2>&1; then
   alias emacstty='emacsclient -tty'
