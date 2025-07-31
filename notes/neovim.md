@@ -1,7 +1,7 @@
 Here is the corrected, enhanced, and rewritten Neovim configuration.
-[Note]: *Prevent automatic installations of Mason packages. These will handled by nix-shell*
+[Note]: _Prevent automatic installations of Mason packages. These will handled by nix-shell_
 
------
+---
 
 ### 📂 Final File Structure
 
@@ -38,7 +38,7 @@ nvim
         └── which-key.lua
 ```
 
------
+---
 
 ### 📜 `init.lua`
 
@@ -61,7 +61,7 @@ require('core.keymaps')
 require('core.lazy')
 ```
 
------
+---
 
 ### 🪨 `core` Configuration
 
@@ -176,7 +176,7 @@ require('lazy').setup({
 })
 ```
 
------
+---
 
 ### 🔌 `plugins` Configuration
 
@@ -517,7 +517,7 @@ return {
 }
 ```
 
------
+---
 
 ### 🌐 `lsp` Configuration
 
