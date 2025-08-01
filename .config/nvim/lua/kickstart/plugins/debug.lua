@@ -12,7 +12,20 @@ return {
   -- NOTE: And you can specify dependencies as well
   dependencies = {
     -- Creates a beautiful debugger UI
-    'rcarriga/nvim-dap-ui',
+    {
+      'rcarriga/nvim-dap-ui',
+      config = function()
+        require('dapui').setup()
+      end,
+    },
+
+    {
+      'mfussenegger/nvim-dap-python',
+      ft = 'python',
+      config = function()
+        require('dap-python').setup '~/.virtualenvs/debugpy/bin/python'
+      end,
+    },
 
     -- Required dependency for nvim-dap-ui
     'nvim-neotest/nvim-nio',
