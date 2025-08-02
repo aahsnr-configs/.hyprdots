@@ -1,3 +1,5 @@
+# Neovim Setup
+
 Here is the corrected, enhanced, and rewritten Neovim configuration.
 [Note]: _Prevent automatic installations of Mason packages. These will handled by nix-shell_
 
