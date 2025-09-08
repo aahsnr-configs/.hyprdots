@@ -1,45 +1,80 @@
-{ inputs, pkgs, config, lib, nixgl, ... }:
-
+{ ... }:
 {
   home = {
     username = "ahsan";
     homeDirectory = "/home/ahsan";
-    stateVersion = "25.05";
-    extraOutputsToInstall = ["doc" "info" "devdoc"];
-    
-    #--- Setting Session Variables ---
+    stateVersion = "25.11";
+    extraOutputsToInstall = [
+      "doc"
+      "info"
+      "devdoc"
+    ];
+
+    # Set default editor and other environment variables
     sessionVariables = {
-      EDITOR = "emacsclient -c -a 'emacs'";
-      BROWSER = "zen-browser";
+      EDITOR = "nvim";
+      VISUAL = "emacsclient -c -a 'emacs'";
       TERMINAL = "kitty";
+      MANPAGER = "sh -c 'col -bx | bat -l man -p'";
+      PAGER = "bat --paging=always --style=plain";
+      LESS = "-R --use-color -Dd+r -Du+b -DS+s -DE+g";
+      LANG = "en_US.UTF-8";
     };
 
-    #--- Setting Session Path ---
+    shell.enableZshIntegration = true;
+
+    # Consolidate PATH from export.zsh
     sessionPath = [
+      "$HOME/.cargo/bin"
+      "$HOME/go/bin"
+      "$HOME/.bun/bin"
       "$HOME/.local/bin"
-    # "/usr/libexec"
+      "$HOME/.local/bin/hypr"
+      "$HOME/.config/emacs/bin"
+      "$HOME/.npm-global/bin"
+      "$HOME/.local/share/flatpak/exports/bin"
     ];
   };
-
 
   # Home Manager is pretty good at managing dotfiles. The primary way to manage
   # plain files is through 'home.file'.
   home.file = {
+    # # Building this configuration will create a copy of 'dotfiles/screenrc' in
+    # # the Nix store. Activating the configuration will then make '~/.screenrc' a
+    # # symlink to the Nix store copy.
     # ".screenrc".source = dotfiles/screenrc;
+
+    # # You can also set the file content immediately.
+    # ".gradle/gradle.properties".text = ''
+    #   org.gradle.console=verbose
+    #   org.gradle.daemon.idletimeout=3600000
+    # '';
   };
 
-  # nix-pkgs: yazi texlab tectonic emacs-lsp-booster
-  home.packages = with pkgs; [
-    markdownlint-cli
-    nix-prefetch-git
-    nix-prefetch-github
-  ];
-
-  imports = [ 
-    # ./fonts
-    # ./git
-    # ./gpg
-    # inputs.nix-doom-emacs-unstraightened.hmModule
+  imports = [
+    ./atuin
+    ./bat
+    ./btop
+    ./catppuccin
+    ./dev
+    ./emoji
+    ./eza
+    ./fd-find
+    ./fonts
+    ./git
+    ./keyring
+    ./lazygit
+    ./pay-respects
+    ./pkgs
+    ./ripgrep
+    ./starship
+    ./texlive
+    ./theming
+    ./tmux
+    ./xdg
+    ./yazi
+    ./zoxide
+    ./zsh
   ];
 
   nixpkgs = {
