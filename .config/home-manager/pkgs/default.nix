@@ -1,5 +1,7 @@
-{pkgs, ...}: {
+{ pkgs, ... }:
+{
   home.packages = with pkgs; [
+    adw-gtk3
     delta
     lua5_1
     luarocks

@@ -28,9 +28,9 @@
     nerd-fonts.symbols-only
     nerd-fonts.caskaydia-mono
     noto-fonts-color-emoji
-    rubik
     powerline-fonts
     terminus_font
+    twemoji-color-font
     ubuntu_font_family
     ubuntu-sans
     vistafonts
