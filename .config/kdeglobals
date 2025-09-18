@@ -141,8 +141,8 @@ XftHintStyle=hintslight
 XftSubPixel=none
 fixed=JetBrains Mono Medium,13,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 font=JetBrains Mono Medium,13,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
-menuFont=Rubik,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
-smallestReadableFont=Rubik,9,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+menuFont=JetBrains Mono Medium,12,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+smallestReadableFont=JetBrains Mono Medium,11,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 toolBarFont=Rubik,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 
 [Icons]
