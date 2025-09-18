@@ -9,6 +9,14 @@
 - [x] quickshell
 - [x] wlogout
 
+## General hm Tasks
+
+- [ ] Add nix-zsh-completions plugin
+
+## hmModules for Configs in [Matt-FTW](https://github.com/Matt-FTW/dotfiles.git)
+
+- [ ] yazi
+
 ## Hyprland Settings from end-4
 
 - [x] colors.conf
