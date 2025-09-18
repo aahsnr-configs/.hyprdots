@@ -1,13 +1,49 @@
-# Reapply all non-hyprland configs and hypridle config
+## The following configs from the end-4 dots will be restored
 
-- [x] fcitx5
-- [x] fuzzel
-- [x] kdeglobals
-- [x] kde-material-you-colors
-- [x] matugen
-- [x] mpv
-- [x] quickshell
-- [x] wlogout
+[Note]: Make sure to add ai bash scripts
+
+- [x] fcitx5/
+- [x] fish/
+- [x] fontconfig/
+- [x] foot/
+- [x] fuzzel/
+- [x] hypr/custom **just in case**
+- [x] hypr/hyprland/colors.conf
+- [x] hypr/hyprlock/
+- [x] hypr/shaders/
+- [x] hypr/hypridle.conf
+- [x] hypr/hyprlock.conf
+- [x] hypr/monitors.conf
+- [ ] kde-material-you-colors/
+- [ ] Kvantum/
+- [ ] matugen/
+- [ ] mpv/
+- [ ] qt5ct/
+- [ ] qt6ct/
+- [ ] quickshell/
+- [ ] wlogout/
+- [ ] xdg-desktop-portal/
+- [ ] zshrc.d/
+- [ ] chrome-flags.conf
+- [ ] code-flags.conf
+- [ ] darklyrc
+- [ ] dolphinrc
+- [ ] kdeglobals
+- [ ] konsolerc
+- [ ] starship.toml
+- [ ] thorium-flags.conf
+
+## General end-4 dots TASKS
+
+- [ ] find out what **switchwalls.sh** does
+- [ ] combine my and end-4's kitty configurations
+
+## Match the following hyprland config files in .hyprdots with end-4 dots
+
+- [ ] hypr/hyprland/env.conf
+- [ ] hypr/hyprland/execs.conf
+- [ ] hypr/hyprland/general.conf
+- [ ] hypr/hyprland/rules.conf
 
 ## Arch Linux Tasks
 
@@ -24,6 +60,7 @@
 ## hmModules for Configs in [Matt-FTW](https://github.com/Matt-FTW/dotfiles.git)
 
 - [ ] yazi
+- [ ] switch to fish
 
 ## Hyprland Settings from end-4
 
@@ -62,3 +99,8 @@
       inhibitingIdle: 0
       xdgTag:
       xdgDescription:
+
+## Arch Linux Related **tasks**
+
+- [ ] implement profile-daemon-sync
+- [ ] implement Matt-FTW zen-browser config
