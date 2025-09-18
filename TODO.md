@@ -1,4 +1,4 @@
-# Porting end-4 hyprland dots
+# Reapply all non-hyprland configs and hypridle config
 
 - [x] fcitx5
 - [x] fuzzel
@@ -9,9 +9,17 @@
 - [x] quickshell
 - [x] wlogout
 
+## Arch Linux Tasks
+
+- [ ] Stay in end-4; **Don't switch to Caelestia** -> [Why not?] Caelestia lacks proper documentation
+- [ ] Setup snapper in arch linux
+- [ ] Setup @swap and swapfile for arch linux
+- [ ] Use my hyprland config from few weeks ago to setup the rules for pyprland
+
 ## General hm Tasks
 
 - [ ] Add nix-zsh-completions plugin
+- [ ] change starship.toml file
 
 ## hmModules for Configs in [Matt-FTW](https://github.com/Matt-FTW/dotfiles.git)
 
