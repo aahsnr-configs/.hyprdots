@@ -162,7 +162,8 @@
             "org.kde.dolphin",
             "kitty",
             "zen",
-            "git-terminal"
+            "emacs",
+            "mpv"
         ],
         "pinnedOnStartup": false
     },
