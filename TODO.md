@@ -1,12 +1,16 @@
-## Switching from end-4 quickshell
+## Desktop Shell
 
 ### Possible Candidates
 
 - [ ] Caelestia
-- [ ] DankMaterialShell _Lockscreen only works in Niri_
+- [ ] DankMaterialShell _Lockscreen only works in Niri and doesn't have_
 - [ ] Fiberglass _Once its finished_
 - [ ] Noctalia Shell
 - [ ] whisker/
+
+### Tasks
+
+- [ ] Make sure the caelestia shell provides all the functionalities of the noctalia shell
 
 ## Arch Linux Tasks
 
