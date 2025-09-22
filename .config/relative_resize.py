@@ -1,1 +1,0 @@
-kitty/relative_resize.py

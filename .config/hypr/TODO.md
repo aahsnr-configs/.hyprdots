@@ -6,10 +6,9 @@
 - [x] hyprland/gestures.conf [settings.conf in .hyprdots]
 - [x] hyprland/group.conf [settings.conf in .hyprdots]
 - [x] hyprland/input.conf [settings.conf in .hyprdots]
-- [ ] hyprland/keybinds.conf [keybindings.conf in .hyprdots]
-- [ ] hyprland/misc.conf
+- [x] hyprland/keybinds.conf [keybindings.conf in .hyprdots]
+- [x] hyprland/misc.conf
 - [x] hyprland/rules.conf [settings.conf in .hyprdots]
 - [x] scheme/
 - [x] scripts/
 - [ ] hyprland.conf
-- [ ] variables.conf
