@@ -22,3 +22,4 @@
 .config/nvim/nvim
 .config/nvim/spell/
 .config/nvim/lazy-lock.json
+.config/home-manager/flake.lock
