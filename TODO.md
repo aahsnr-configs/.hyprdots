@@ -15,18 +15,21 @@
 ## Port hmModules to default configs
 
 - [x] atuin
-- [ ] bat
-- [ ] btop
-- [ ] eza
-- [ ] fd
+- [x] bat
+- [x] btop
+- [x] eza
+- [x] fd
 - [ ] fzf
 - [ ] fish
 - [ ] pay-respects
-- [ ] ripgrep
-- [ ] starship
-- [ ] tmux
-- [ ] yazi
+- [x] ripgrep
+- [x] starship
+- [x] tmux
+- [x] yazi
 - [ ] zoxide
+
+- [ ] yazi plugins
+- [ ] tmux plugins
 
 ## Arch Linux Tasks
 
