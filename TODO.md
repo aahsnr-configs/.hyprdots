@@ -19,9 +19,9 @@
 - [x] btop
 - [x] eza
 - [x] fd
-- [ ] fzf
-- [ ] fish
-- [ ] pay-respects
+- [x] fzf
+- [x] fish
+- [x] pay-respects
 - [x] ripgrep
 - [x] starship
 - [x] tmux
