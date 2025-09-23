@@ -12,12 +12,28 @@
 
 - [ ] Make sure the caelestia shell provides all the functionalities of the noctalia shell
 
+## Port hmModules to default configs
+
+- [x] atuin
+- [ ] bat
+- [ ] btop
+- [ ] eza
+- [ ] fd
+- [ ] fzf
+- [ ] fish
+- [ ] pay-respects
+- [ ] ripgrep
+- [ ] starship
+- [ ] tmux
+- [ ] yazi
+- [ ] zoxide
+
 ## Arch Linux Tasks
 
-- [ ] Stay in end-4; **Don't switch to Caelestia** -> [Why not?] Caelestia lacks proper documentation
 - [ ] Setup snapper in arch linux
 - [ ] Setup @swap and swapfile for arch linux
 - [ ] Use my hyprland config from few weeks ago to setup the rules for pyprland
+- [ ] Use bat as previewer for fzf
 
 ## General hm Tasks
 
